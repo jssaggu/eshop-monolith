@@ -1,6 +1,6 @@
 # eshop-monolith
 
-## E Shop Monolith application withthe following modules
+## E Shop Monolith application with the following modules
 ### Products
 ### Customers
 ### Orders
