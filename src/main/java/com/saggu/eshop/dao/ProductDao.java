@@ -1,8 +1,6 @@
 package com.saggu.eshop.dao;
 
-import lombok.Builder;
-import lombok.Data;
-import lombok.ToString;
+import com.saggu.eshop.controller.dto.ProductDto;
 
 import java.util.Map;
 import java.util.Optional;
@@ -18,13 +16,5 @@ public class ProductDao {
 
     public static Optional<ProductDto> getProduct(String productId) {
         return Optional.ofNullable(products.get(productId));
-    }
-
-    @Data
-    @Builder
-    @ToString
-    public static class ProductDto {
-        private String productId;
-        private String productName;
     }
 }

@@ -1,7 +1,7 @@
 package com.saggu.eshop.controller;
 
+import com.saggu.eshop.controller.dto.ProductDto;
 import com.saggu.eshop.dao.ProductDao;
-import com.saggu.eshop.dao.ProductDao.ProductDto;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
